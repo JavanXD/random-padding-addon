@@ -44,5 +44,5 @@ Source
 
 [1]: http://spenibus.net
 [2]: https://javan.de
-[3]: https://addons.mozilla.org/firefox/addon/adding-random-padding/
+[3]: https://addons.mozilla.org/firefox/addon/request-padding/
 
