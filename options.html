@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="options">
+            <h1>Options</h1>
+            <form>
+                <fieldset>
+                    <legend>Enabled at startup</legend>
+                    <label>
+                        <input type="checkbox" id="enabledAtStartup"> On
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Max Length for padding</legend>
+                    <div>
+                        Leave empty for default behaviour.
+                    </div>
+                    <input type="number" id="maxLength" placeholder="number">
+                </fieldset>
+                <fieldset>
+                    <legend>Remember to save your changes</legend>
+                    <button type="submit">Save</button>
+                </fieldset>
+            </form>
+        </div>
+        <script src="options.js"></script>
+    </body>
+</html>
